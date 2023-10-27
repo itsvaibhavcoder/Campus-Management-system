@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+/* Teacher's View Styles */
+#teacher-view {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#teacher-view h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#student-list {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#attendance-date {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#mark-attendance {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mark-attendance:hover {
+    background-color: #0056b3;
+}
+
+/* Attendance Results Styles */
+#attendance-results {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#attendance-results h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#attendance-results-ul {
+    list-style: none;
+    padding: 0;
+}
+
+#attendance-results-ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#monthly-attendance {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007BFF;
+}
